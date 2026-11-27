@@ -43,7 +43,7 @@ const config = {
   url: "https://hkpd.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/ChatGPT-Shortcut",
+  baseUrl: "/ChatGPT-Shortcut/",
 
   // app boot 时跑的 client modules（SPA 路由切换不重触发）。
   // aiReferralTracker 把 AI 引擎来源 referrer 推到 GTM dataLayer，让 GA4 能单独分组；
