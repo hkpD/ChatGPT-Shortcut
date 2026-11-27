@@ -30,9 +30,9 @@ const buildDate = process.env.SKIP_GIT_INFO === "true" ? new Date().toISOString(
 const config = {
   // 仅保留品牌名（7 字符）；具体描述在各页面 Layout title 自定义。
   // 旧值 113 字符英文长 title 会让每个页面 <title> 被拼成 ~170 字符，Google SERP 截断 60。
-  title: "AiShort",
+  //title: "AiShort",
   // tagline: '方便中文使用 ChatGPT 快捷指令',
-  favicon: "img/favicon.ico",
+  // favicon: "img/favicon.ico",
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -40,10 +40,10 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: "https://www.aishort.top",
+  url: "https://hkpd.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/",
+  baseUrl: "/ChatGPT-Shortcut",
 
   // app boot 时跑的 client modules（SPA 路由切换不重触发）。
   // aiReferralTracker 把 AI 引擎来源 referrer 推到 GTM dataLayer，让 GA4 能单独分组；
@@ -53,7 +53,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "rockbenben", // Usually your GitHub org/user name.
+  organizationName: "hkpd", // Usually your GitHub org/user name.
   projectName: "ChatGPT-Shortcut", // Usually your repo name.
 
   onBrokenLinks: "throw",
